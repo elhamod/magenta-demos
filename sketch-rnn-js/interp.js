@@ -133,7 +133,8 @@ var sketch = function( p ) {
     'whale',
     'windmill',
     'yoga',
-    'yogabicycle'];
+    'yogabicycle',
+    'everything'];
 
   var large_class_list = ['mosquito',
     'ant',

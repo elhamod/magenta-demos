@@ -133,8 +133,7 @@ var sketch = function( p ) {
     'whale',
     'windmill',
     'yoga',
-    'yogabicycle',
-    'everything'];
+    'yogabicycle',];
 
   var large_class_list = ['mosquito',
     'ant',
@@ -544,7 +543,7 @@ var sketch = function( p ) {
 
   var model_sel_event = function() {
     var c = model_sel.value();
-    var model_mode = "gen" //"vae";
+    var model_mode = "vae";
     console.log("user wants to change to model "+c);
     var call_back = function(new_model) {
       rnn_model = new_model;

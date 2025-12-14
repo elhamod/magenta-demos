@@ -544,7 +544,7 @@ var sketch = function( p ) {
 
   var model_sel_event = function() {
     var c = model_sel.value();
-    var model_mode = "vae";
+    var model_mode = "gen" #"vae";
     console.log("user wants to change to model "+c);
     var call_back = function(new_model) {
       rnn_model = new_model;
